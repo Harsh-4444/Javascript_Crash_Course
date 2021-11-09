@@ -68,3 +68,16 @@ console.log(a.split(''));
 
 const datatypes = 'String, Number, Boolean, Null, Undefined, Symbol, Object, BigInt'
 console.log(datatypes.split(', '));*/
+
+//Arrays - Variables that hold multiple values
+/*const fruits = ['apples', 'oranges', 'pears'];
+fruits[3]='grapes';
+console.log(fruits);*/
+//If we use 👇🏻 this we will get a error
+           // fruits = [];
+//If we want to add a value on to the end we can use varname.push('value');
+//If we want to add a value on to the beginning we can use varname.unshift('value');
+//If we want to remove a value at the end we can use varname.pop();
+//If we want to remove a value at the beginning we can use varname.shift(); [not included in the course]
+//If we want to check if something is an Array we can use console.log(Array.isArray('fruits'));
+//If we want to know the index of certain value we can use console.log(fruits.indexOf('oranges'));
