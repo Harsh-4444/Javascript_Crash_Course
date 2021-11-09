@@ -53,3 +53,18 @@ console.log('My name is ' + name + ' and I am ' + age)//old method
 console.log(`My name is ${name} and I am ${age}`)
 const hello = `My name is ${name} and I am ${age}`
 console.log(hello)*/
+
+//If we want to know the length of the string we can use console.log(varname.length)
+//If we want to change the case of the string from lowercase to uppercase we can use console.log(varname.toUpperCase())
+//If we want to change the case of the string from uppercase to lowercase we can use console.log(varname.toLowerCase())
+
+/*const a = 'Hello World!'
+console.log(a.length);
+console.log(a.toUpperCase());
+console.log(a.toLowerCase());
+
+console.log(a.substring(0,12));
+console.log(a.split(''));
+
+const datatypes = 'String, Number, Boolean, Null, Undefined, Symbol, Object, BigInt'
+console.log(datatypes.split(', '));*/
